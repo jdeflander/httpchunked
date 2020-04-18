@@ -16,9 +16,9 @@ setup(
     long_description=_long_description,
     long_description_content_type="text/markdown",
     license="MIT",
-    name="chunked",
+    name="httpchunked",
     python_requires=">=3.5",
-    py_modules=["chunked"],
-    url="https://github.com/jdeflander/chunked",
-    version="0.1.0",
+    py_modules=["httpchunked"],
+    url="https://github.com/jdeflander/httpchunked",
+    version="0.1.1",
 )

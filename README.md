@@ -1,7 +1,7 @@
-# chunked
+# httpchunked
 
 Do you need support for chunked transfer encoding in your Python web server,
-without adding a dependency on a complete framework? Then `chunked` is
+without adding a dependency on a complete framework? Then `httpchunked` is
 the module you need! It has no third-party dependencies and consists of only
 two functions: `decode` and `encode`.
 
@@ -13,7 +13,7 @@ two functions: `decode` and `encode`.
 $ cat main.py
 from io import BytesIO
 
-from chunked import decode
+from httpchunked import decode
 
 if __name__ == "__main__":
     dst = BytesIO()
@@ -31,7 +31,7 @@ b'foo'
 $ cat main.py
 from io import BytesIO
 
-from chunked import encode
+from httpchunked import encode
 
 if __name__ == "__main__":
     dst = BytesIO()

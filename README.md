@@ -46,5 +46,5 @@ b'3\r\nfoo\r\n0\r\n\r\n'
 ## Installation
 
 ```sh
-pip install chunked
+pip install httpchunked
 ```

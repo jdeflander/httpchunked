@@ -5,10 +5,10 @@ from io import BytesIO
 from threading import Thread
 from unittest import TestCase
 
-from chunked import decode, encode
+from httpchunked import decode, encode
 
 
-class TestChunked(TestCase):
+class TestHTTPChunked(TestCase):
     _connection: HTTPConnection
     _server: HTTPServer
     _thread: Thread

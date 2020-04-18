@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f6a2224cb28e99a02cac2c0f8f3dc74e4d31dfe52ab1223aaf8a01ff1937a61a"
+            "sha256": "ae11a6afaa75ff4d057bbc8b49e11ce8c31428d9a3a688eb83c3a91f05b8751d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,7 +16,7 @@
         ]
     },
     "default": {
-        "chunked": {
+        "httpchunked": {
             "editable": true,
             "path": "."
         }

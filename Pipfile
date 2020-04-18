@@ -11,7 +11,7 @@ setuptools = "*"
 wheel = "*"
 
 [packages]
-chunked = {editable = true,path = "."}
+httpchunked = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
